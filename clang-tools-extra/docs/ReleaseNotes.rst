@@ -86,6 +86,11 @@ Improvements to clang-tidy
   Checks whether there are underscores in googletest test and test case names in
   test macros, which is prohibited by the Googletest FAQ.
 
+- New :doc:`misc-sizeof-uninliner
+  <clang-tidy/checks/misc-sizeof-uninliner>` check.
+
+  FIXME: add release notes.
+
 Improvements to include-fixer
 -----------------------------
 
