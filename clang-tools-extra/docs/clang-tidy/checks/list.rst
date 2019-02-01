@@ -181,6 +181,7 @@ Clang-Tidy Checks
    misc-non-copyable-objects
    misc-non-private-member-variables-in-classes
    misc-redundant-expression
+   misc-sizeof-uninliner
    misc-static-assert
    misc-throw-by-value-catch-by-reference
    misc-unconventional-assign-operator
