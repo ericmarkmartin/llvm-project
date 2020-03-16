@@ -15,13 +15,9 @@ namespace clang {
 namespace tidy {
 namespace misc {
 
-/// FIXME: Write a short description.
-///
-/// For the user-facing documentation see:
-/// http://clang.llvm.org/extra/clang-tidy/checks/misc-sizeof-uninliner.html
+/// Replaces uses of sizeof with calls to a `sizeOf` function so type
+/// information is preserved in llvm ir.
 class SizeofUninlinerCheck : public ClangTidyCheck {
-private:
-  static void pascalCase(std::string &str);
 public:
   SizeofUninlinerCheck(StringRef Name, ClangTidyContext *Context)
       : ClangTidyCheck(Name, Context) {}
